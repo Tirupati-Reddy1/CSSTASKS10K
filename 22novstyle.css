@@ -1,0 +1,132 @@
+.md {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url("web3.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.div1,
+.div2,
+.div3 {
+    border: 2px solid;
+
+}
+
+.div3 {
+    /* height: 150px;*/
+}
+
+.div2 {
+    /* height: 250px;*/
+    padding: 20px;
+}
+
+.div1 div {
+    border: 2px solid red;
+    height: 100px;
+    width: 130px;
+    border-radius: 15px;
+
+
+
+}
+
+.div1 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.div1-1 {
+    background-image: url("medium.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.div1-2 {
+    background-image: url("images.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.div1-3 {
+    background-image: url("farmer.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.div1-4 {
+    background-image: url("eye.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.div2 div {
+    border: 2px solid blue;
+    height: 250px;
+    width: 100px;
+    border-radius: 10px;
+
+
+
+}
+
+.div2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.div2-2 {
+    flex-grow: 1;
+    background-image: url("capture.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.div2-1 {
+    background-image: url("monkey.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+.div2-3{
+    background-image: url("animal1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.div3 div {
+    border: 2px solid green;
+    height: 70px;
+    width: 130px;
+}
+
+.div3 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.div3-1{
+    background-image: url("animal2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.div3-2{
+    background-image: url("capture.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.div3-3{
+    background-image: url("tiger.jpeg");
+    background-size: cover;
+    background-position: center;}
